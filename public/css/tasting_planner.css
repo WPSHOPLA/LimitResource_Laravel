@@ -1,0 +1,65 @@
+.navbar {
+	margin-bottom: 0;
+}
+
+/*.content,*/
+.col-sm-2,
+.col-sm-10 {
+	padding: 0;
+}
+
+.left-list {
+	padding: 10px;
+}
+.left-list #vineyards {
+	list-style: none inside;
+	margin-top: 10px;
+	padding: 3px 3px 3px 0;
+}
+.left-list #vineyards .glyphicon-th,
+.left-list #vineyards .unsortable {
+	display: inline-block;
+}
+.left-list #vineyards .glyphicon-th {
+	color: #ddd;
+	cursor: move;
+	margin-right: 10px;
+}
+.left-list #vineyards .glyphicon-remove {
+	color: pink;
+	cursor: pointer;
+	top: 2px;
+}
+.left-list #vineyards .glyphicon-remove:hover {
+	color: red;
+}
+
+.left-list .stats table {
+	width: 100%;
+}
+.left-list .stats table tr:nth-child(4n-1), table tr:nth-child(4n) {
+	background-color: #eee;
+}
+.left-list .stats span {
+	padding-left: 10px;
+}
+.left-list .stats .total {
+	background-color: #ccc!important;
+	border: 1px solid #bbb;
+}
+.left-list .stats .btn {
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.ui-autocomplete {
+	max-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}

@@ -1,0 +1,16 @@
+#map {
+	height: 100%;
+	width: 100%;
+}
+.navbar {
+	margin-bottom: 0!important;
+}
+body>.container-fluid {
+	padding: 0;
+}
+#vineyardDetails h3:first-child {
+	margin-top: 0;
+}
+#vineyardDetails .wines_list a {
+	color: red;
+}

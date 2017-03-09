@@ -1,0 +1,28 @@
+#addVineyard .modal-dialog {
+	height: 90%;
+	width: 90%;
+}
+#addVineyard .modal-content {
+	height: 100%;
+}
+#addVineyard .modal-body {
+	height: 92%;
+}
+
+.glyphicon-remove {
+	cursor: pointer;
+	top: 3px;
+}
+ul#allow_users {
+	margin-top: 10px;
+}
+
+#userList,
+.addUserManually {
+	display: inline-block;
+	float: left;
+}
+
+#userList {
+	width: 80%;
+}
